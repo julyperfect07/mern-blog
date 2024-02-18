@@ -116,6 +116,7 @@ const CommentSection = ({ postId }) => {
           {comments.map((comment) => (
             <Comment key={comment._id} comment={comment} onLike={handleLike} />
           ))}
+
         </>
 
       )}
